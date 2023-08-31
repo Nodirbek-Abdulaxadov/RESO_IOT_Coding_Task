@@ -28,7 +28,7 @@ public class Worker : BackgroundService
                 telemetries.Clear();
             }
 
-            await Task.Delay(new TimeSpan(0, 0, 1), stoppingToken);
+            await Task.Delay(new TimeSpan(0, 15, 0), stoppingToken);
         }
     }
 }
